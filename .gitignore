@@ -1,0 +1,42 @@
+# Ignore general OS and editor files
+.DS_Store
+*.log
+*.idea/
+.vscode/
+*.iml
+
+# Ignore compiled code, build, and dependency directories
+node_modules/
+build/
+dist/
+*.exe
+*.dll
+*.jar
+*.war
+*.ear
+
+# Ignore sensitive or environment-specific files
+config.js
+.env
+
+# Ignore backend development files
+/backend/node_modules/
+/backend/build/
+
+# Ignore frontend development files
+/frontend/node_modules/
+/frontend/build/
+
+# Ignore admin development files
+/admin/node_modules/
+/admin/build/
+
+# Ignore backend development branches
+/backend-dev
+
+# Ignore frontend development branches
+/frontend-dev
+
+# Ignore admin development branches
+/admin-dev
+
